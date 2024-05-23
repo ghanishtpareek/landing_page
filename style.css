@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+.header{
+    background-color:#1F2937;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.header.logo{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.header.links{
+    display:flex;
+    list-style: none;
+    
+}
