@@ -5,18 +5,25 @@ body{
     font-family: 'Roboto';
     /* background-color: pink; */
 }
+.upper,
+.footer{
+    background-color:#1F2937;
+}
 
 .upper{
     display:flex;
     flex-direction:column;
-    background-color:#1F2937;
+    /* background-color:#1F2937; */
     justify-content: center;
     padding-left:200px;
     padding-right:200px;
 }
+
 .header,
 .header.logo,
-.main-section{
+.main-section,
+.footer,
+.call-card{
     color:#F9FAF8;
 }
 
@@ -76,7 +83,7 @@ button{
 }
 
 .info-section{
-    margin:10px 0;
+    margin:20px 0;
 }
 
 .info-section .info-text{
@@ -84,19 +91,68 @@ button{
     font-size: 36px;
     color:#1f2937;
     text-align: center;
+    margin:10px;
 }
 
 .info-graphics{
     align-items: center;
     justify-content: center;
     display:flex;
+    gap:25px;
+    margin-bottom:50px;
 }
 .image1,
 .image2,
 .image3,
 .image4{
-    border-radius: 10px;
-    width:auto;
-    height:50px;
+    border-radius: 20px;
+    width:95px;
+    height:100px;
+    border:5px #3882f6 solid;
+}
 
+.testimonial{
+    background-color:#E5E7EB;
+    padding:20px 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.testimonial.text{
+    color:#1F2937;
+    font-size:36px;
+    font-weight:lighter;
+    text-align: center;
+    /* width:100%; */
+    min-width:700px;
+}
+
+.testimonial.reviewer{
+    font-weight: bold;
+    width:800px;
+    align-self: flex-end;
+}
+
+.call-card{
+    background-color: #3882f6;
+    margin: 50px 200px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+}
+
+.action-call{
+    font-weight:bold;
+}
+
+.call-text.sign-up{
+    border:5px #F9FAF8 solid;
+}
+
+.footer{
+    padding:20px 0;
+    text-align:center;
 }
